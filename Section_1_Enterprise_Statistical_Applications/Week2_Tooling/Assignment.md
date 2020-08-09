@@ -1,6 +1,6 @@
 # Evaluate Tools Used for Statistical Applications
 
-For this assignment, you must write a paper evaluating a minimum of three tools that can be used for statistical analysis and reporting. 
+For this assignment, you must write a paper evaluating a minimum of three tools that can be used for statistical analysis and reporting.
 
 Your evaluation should include the following:
 
