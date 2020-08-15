@@ -28,12 +28,6 @@ Researchers can avoid the "damned if you do, damned if you dont" paradox of fixe
 
 > Most breaches of SCV arise from a poor understanding of statistical procedures and the resultant inadequate usage. These problems can be easily corrected, as illustrated in this paper, but the problems will not have arisen if researchers had had a better statistical training in the first place. [...]  One way to eradicate the problem is by improving statistical education at undergraduate and graduate levels, perhaps not just focusing on giving formal training on a number of methods but by providing students with the necessary foundations that will subsequently allow them to understand and apply methods for which they received no explicit formal training.
 
-## Designing and reporting experiments in psychology (2008)
-
-> Chapters 9-13 cover design of experiments, including concepts such as internal and external validity.  Chapters 13 covers more advanced designs.  Chapters 10-12 are most critical. Please note that while the textbook covers concepts within a psychology framework, the concepts apply to all fields.
-
-Harris, P. (2008). Designing and reporting experiments in psychology. New York, NY: McGraw-Hill Education. [ProQuest eBook](https://ebookcentral.proquest.com/lib/ncent-ebooks/detail.action?docID=345135). [DesignReportExperiments_Section2.pdf](DesignReportExperiments_Section2.pdf).
-
 ## Threats to the Validity of Research (1993)
 
 > This article provides an excellent overview of threats to validity in research design, which includes the four major types of validity (internal, external, statistical conclusion, and construct validity).
@@ -77,3 +71,27 @@ These classes of issues can originate from internal and external sources.  For i
 - Evaluation apprehension due to concerns of confidentiality
 - Experimenter expectations influencing outcome data
 - Nesting independent variables too many levels
+
+## Designing and reporting experiments in psychology (2008)
+
+> Chapters 9-13 cover design of experiments, including concepts such as internal and external validity.  Chapters 13 covers more advanced designs.  Chapters 10-12 are most critical. Please note that while the textbook covers concepts within a psychology framework, the concepts apply to all fields.
+
+Harris, P. (2008). Designing and reporting experiments in psychology. New York, NY: McGraw-Hill Education. [ProQuest eBook](https://ebookcentral.proquest.com/lib/ncent-ebooks/detail.action?docID=345135). [DesignReportExperiments_Section2.pdf](DesignReportExperiments_Section2.pdf).
+
+### 9: Experiments, correlation and description
+
+This chapter provides an overview of the characteristics of experimentation.  In a nutshell, there are `independent and dependent variables` (measurements) that are influenced to produce a change.  This influence or `control` are the procedures that constrain the bounds of the experiment as a whole.
+
+Defining the control process is critical and must eliminate external threats, such as _a sleeping study with patients taking arbitrary other medications_.  It can be challenging or impossible to draw meaningful conclusions for a study that uses dirty data.  This point connects back to [TIM-8130 Data Mining](https://github.com/dr-natetorious/TIM-8130-Data_Mining), and how 80% of research is data curation.
+
+> An uncontrolled variable that changes along with our independent variable is known in the trade as a `confounding variable` (to confound = to confuse).
+
+### 10: Basic experimental design
+
+While designing an experiment is a relatively standard process, the choices of specific questions require more of an art form.  For instance, _does driving with music impact performance_?  This general question has many permutation such as what _aspect of music_ (indpendent) and what _driving statistic_ (dependent).  Perhaps, the music is categorical such as genre or continuous like volume.  Meanwhile, the statistic could be a measurement of speed consistency or alignment on the road.
+
+### What are the challenges with related samples
+
+Having many similar examples can remove extraneous factors that are specific to an individual.  However, it can also lead to bias and result skew.  One approach is to remove or compress these redundant values, but this can introduce `order effects`.  An order effect occurs when the sequence of samples into the process creates a subtle dependency on the final results.
+
+One method for handling ordering effects is to use randomization.  Another solution is use `counterbalancing` to make the _counts of preceeding item -> item_ approximately equal.
