@@ -142,4 +142,3 @@ There are several knobs available to the research team.  Depending on the specif
 write in your reports that “_our findings would have been significant if we had had more participants_”. It is precisely because this is inevitably true that – unless you defend it sensibly – this remark tends to evoke the scorn and wrath of your marker.)
 
 ## 13: More advanced experimental design
-
