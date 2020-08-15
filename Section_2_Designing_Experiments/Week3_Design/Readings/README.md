@@ -90,8 +90,14 @@ Defining the control process is critical and must eliminate external threats, su
 
 While designing an experiment is a relatively standard process, the choices of specific questions require more of an art form.  For instance, _does driving with music impact performance_?  This general question has many permutation such as what _aspect of music_ (indpendent) and what _driving statistic_ (dependent).  Perhaps, the music is categorical such as genre or continuous like volume.  Meanwhile, the statistic could be a measurement of speed consistency or alignment on the road.
 
-### What are the challenges with related samples
+### What are the challenges with [un-]related samples
 
 Having many similar examples can remove extraneous factors that are specific to an individual.  However, it can also lead to bias and result skew.  One approach is to remove or compress these redundant values, but this can introduce `order effects`.  An order effect occurs when the sequence of samples into the process creates a subtle dependency on the final results.
 
-One method for handling ordering effects is to use randomization.  Another solution is use `counterbalancing` to make the _counts of preceeding item -> item_ approximately equal.
+One method for handling ordering effects is to use randomization.  Another solution is use `counterbalancing` to make the _counts of preceeding item -> item_ approximately equal. A third strategy is to use `matching pairs` which find two examples that are similar/random choosen, and then measure the experiment on the pair.
+
+## 11: Statistics: significance testing
+
+The objective of an experiment is to measure the `differences` between IV and DV variables.  This result comes from `both the conditionals and correlations` of the values.  Researchers need to use `inferential statistics` to quantify how relable are the results, and therefore how `generalizable`.
+
+![significant_test.png](significant_test.png)
