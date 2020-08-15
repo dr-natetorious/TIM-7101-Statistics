@@ -101,3 +101,45 @@ One method for handling ordering effects is to use randomization.  Another solut
 The objective of an experiment is to measure the `differences` between IV and DV variables.  This result comes from `both the conditionals and correlations` of the values.  Researchers need to use `inferential statistics` to quantify how relable are the results, and therefore how `generalizable`.
 
 ![significant_test.png](significant_test.png)
+
+> To call our results statistically significant does not necessarily mean that they have much psychological importance. Likewise, results that are not statistically significant may yet be psychologically informative. Significance, in this context, is a statistical concept. It tells us something about the statistical nature of our data. The psychological importance of a set of findings, whether statistically significant or not, remains to be established.
+
+## 12: Statistics: effect size and power
+
+After performing an experiment and measuring the statistical significance, a decision process needs to accept or reject the null hypothesis.  Instead of approaching this problem as a binary true/false, it is often better to ask `how big of an effect exists`.  This alternative perspective is critical because statistical results are more commonly points on a continuous range.
+
+### How do I measure effect size
+
+> For many years psychologists tended to ignore the issue of effect size and concentrated on whether or not an effect or a relationship was statistically significant. One psychologist in particular – Jacob Cohen – has been especially influential in making psychologists think more about the size of the effects that we report.
+
+Effect size can be measured in standard deviation. One of the advantages of this is that we can then compare effect sizes across different experiments.
+
+### How do I measure power
+
+> [P]ower is the capacity of our study to detect this. That is, power is the probability of not making a type II error, of not failing to find a difference that is actually out there in the psychological universe. The power of a statistical test is its capacity to correctly reject the null hypothes.
+> [...] Experiments vary in power. The more powerful the experiment is, the smaller are the effects it can detect. In this way, experiments to psychologists are like telescopes to astronomers. Very powerful telescopes can see even dim and distant stars. Likewise, very powerful experiments can detect even tiny effects of the IV on the DV. Lowpower experiments are like low-power telescopes.
+
+### How do I increase power
+
+There are several knobs available to the research team.  Depending on the specific-experiment, one aspect is typically more practical than another.
+
+- Targeting a difference significance level
+- Using one-tailed tests
+- Employing parametric tests
+- Increasing participants
+
+### How do I report results
+
+> In the results you can do the following, as I advised in Chapter 4:
+
+1. Whenever possible, report the exact probabilities associated with the obtained values of your statistic, whether these are statistically significant or not.
+2. Where appropriate, report standard deviations as well as means in tables of descriptive statistics.
+3. If you know how, report appropriate confidence intervals such as the 95 percent confidence intervals around the mean, or for a difference between two means. You can do this regardless of whether or not the effects are statistically significant.
+
+### Are statistical significance and effect the same thing
+
+> One thing to avoid at all costs – especially in the discussion – is to confuse statistical significance with the size of the effect.  If the experiment or study is powerful enough, any difference between your conditions will be statistically significant, no matter how small it is numerically and trivial it is psychologically. (Many of you realize this intuitively when you
+write in your reports that “_our findings would have been significant if we had had more participants_”. It is precisely because this is inevitably true that – unless you defend it sensibly – this remark tends to evoke the scorn and wrath of your marker.)
+
+## 13: More advanced experimental design
+
