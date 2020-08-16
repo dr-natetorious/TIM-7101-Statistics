@@ -6,13 +6,31 @@ Donovan, C (2016). Power & Effect Size. YouTube. [YouTube](https://www.youtube.c
 
 ### What is Power
 
-Cohen was the father of power analysis and defines `Cohen D` as `1 - Beta`.  You need to confirm there is _sufficient power before starting any analysis_.  This can detect the study it a waste of time upfront.
+Cohen was the father of power analysis and defines `Cohen D` as `1 - Beta`.  
+
+```python
+# Delta in mean
+difference =
+  mean(experiment) - mean(control)
+
+# Average of two standard deviations
+std_avg =
+  (stddev(experiment)+stddev(control))/2
+
+# Units are z-scores.
+Cohen d = difference / std_avg
+```
+
+You need to confirm there is _sufficient power before starting any analysis_.  This can detect the study it a waste of time upfront.
 
 | Power Value | Value|
 |-------------|-----|
 | Excellent | +0.90 |
 | Acceptable | +0.80|
 | Adequate | +0.70 |
+
+![cohen_d.png](cohen_d.png)
+statisticsfun (2011). How to calculate Cohen d effect size. YouTube. [YouTube](https://www.youtube.com/watch?v=tTgouKMz-eI).
 
 ### How is power used
 

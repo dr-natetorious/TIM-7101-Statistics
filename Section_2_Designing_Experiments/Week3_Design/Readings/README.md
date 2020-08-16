@@ -138,7 +138,10 @@ There are several knobs available to the research team.  Depending on the specif
 
 ### Are statistical significance and effect the same thing
 
-> One thing to avoid at all costs – especially in the discussion – is to confuse statistical significance with the size of the effect.  If the experiment or study is powerful enough, any difference between your conditions will be statistically significant, no matter how small it is numerically and trivial it is psychologically. (Many of you realize this intuitively when you
-write in your reports that “_our findings would have been significant if we had had more participants_”. It is precisely because this is inevitably true that – unless you defend it sensibly – this remark tends to evoke the scorn and wrath of your marker.)
+> One thing to avoid at all costs – especially in the DISCUSSION – is to confuse statistical significance with the size of the effect.  If the experiment or study is powerful enough, any difference between your conditions will be statistically significant, no matter how small it is numerically and trivial it is psychologically. (Many of you realize this intuitively when you write in your reports that "_our findings would have been significant if we had had more participants_". It is precisely because this is inevitably true that – unless you defend it sensibly – this remark tends to evoke the scorn and wrath of your marker.)
 
 ## 13: More advanced experimental design
+
+In real-world experiments there are often multiple levels of independent variables, such as: gender, age, and nationality as three tiers of groupings.  While these more advanced structures can lead to greater insight, researchers need to be careful to not over complicate matters.
+
+Initial ideas of the chapter tie back into [TIM-8130 Data Mining](https://github.com/dr-natetorious/TIM-8130-Data_Mining); and how essentially complex feature vectors result in more sophistication _provided_ ample data is available.  The authors propose around 20 samples per condition as a minimum bar -- which is roughly the rule of thumb of 8130's textbook.
