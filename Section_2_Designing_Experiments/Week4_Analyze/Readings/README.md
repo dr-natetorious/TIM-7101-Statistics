@@ -46,6 +46,15 @@ This chapter looks really useful.  I will come back to this after lunch.
 
 Sangseok Lee, & Dong Kyu Lee. (2018). What is the proper way to apply the multiple comparison test? Korean Journal of Anesthesiology, 71(5), 353–360. [https://doi-org.proxy1.ncu.edu/10.4097/kja.d.18.00242](https://doi-org.proxy1.ncu.edu/10.4097/kja.d.18.00242). [MultipleComparisonTests.pdf](MultipleComparisonTests.pdf).
 
+When examining the `mean` of multiple groups it is often useful to perform an `analysis of variance (ANoVA)`.  These strategies (e.g., Tukey, Newman-Keuls, Bonferroni, Dunneet, Scheffe, ...) compare the similarity of two or more distributions.
+
+The various methods attempt to determine the statistical significance or `P-value (probability value)`-- or likelyhood of an extreme value occurring.  One challenge with measuring the p-value comes from `alpha inflation` which means that the same group is measured over-and-over resulting in _greater confidence despite no additional evidence_.  Comparisons typically use a single-step or stepwise procedure, which [adds or removes parameters](https://youtu.be/AdFT17sq53s) to determine which features are most important.
+
+> Many research designs use numerous sources of multiple comparison, such as multiple outcomes, multiple predictors,
+subgroup analyses, multiple definitions for exposures and outcomes, multiple time points for outcomes (repeated measures), and multiple looks at the data during sequential interim monitoring. Therefore, multiple comparisons performed in a previous situation are accompanied by increased type I error problem, and it is necessary to adjust the P value accordingly.
+
+![mct_strategies.png](mct_strategies.png)
+
 ## Anova and ancova: A glm approach (2012)
 
 Rutherford, A. (2012). Anova and ancova: A glm approach. Hoboken, New Jersey: John Wiley & Sons, Inc. [ProQuest](https://ebookcentral.proquest.com/lib/ncent-ebooks/detail.action?docID=1011369).
