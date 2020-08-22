@@ -4,6 +4,8 @@
 
 Chatterjee, S., & Hadi, A. S. (2012). Regression analysis by example. Hoboken, New Jersey: John Wiley & Sons, Inc. [ProQuest](https://ebookcentral.proquest.com/lib/ncent-ebooks/detail.action?docID=918623).
 
+> Praise for the Fourth Edition: "This book is . . . an excellent source of examples for regression analysis. It has been and still is readily readable and understandable." --Journal of the American Statistical Association Regression analysis is a conceptually simple method for investigating relationships among variables. Carrying out a successful application of regression analysis, however, requires a balance of theoretical results, empirical rules, and subjective judgment. Regression Analysis by Example, Fifth Edition has been expanded and thoroughly updated to reflect recent advances in the field. The emphasis continues to be on exploratory data analysis rather than statistical theory. The book offers in-depth treatment of regression diagnostics, transformation, multicollinearity, logistic regression, and robust regression. The book now includes a new chapter on the detection and correction of multicollinearity, while also showcasing the use of the discussed methods on newly added data sets from the fields of engineering, medicine, and business. The Fifth Edition also explores additional topics, including: Surrogate ridge regression Fitting nonlinear models Errors in variables ANOVA for designed experiments Methods of regression analysis are clearly demonstrated, and examples containing the types of irregularities commonly encountered in the real world are provided. Each example isolates one or two techniques and features detailed discussions, the required assumptions, and the evaluated success of each technique. Additionally, methods described throughout the book can be carried out with most of the currently available statistical software packages, such as the software package R. Regression Analysis by Example, Fifth Edition is suitable for anyone with an understanding of elementary statistics.
+
 ### 1: What is regression analysis
 
 Regression analysis is a common statistical approach for modeling the relationship of multiple variables.  It attempts to approximate a function that uses the parameter set to come to some known outcome.  After estimating this function, researchers can predict behaviors in other groups.
@@ -59,13 +61,29 @@ subgroup analyses, multiple definitions for exposures and outcomes, multiple tim
 
 Rutherford, A. (2012). Anova and ancova: A glm approach. Hoboken, New Jersey: John Wiley & Sons, Inc. [ProQuest](https://ebookcentral.proquest.com/lib/ncent-ebooks/detail.action?docID=1011369).
 
+> Provides an in-depth treatment of ANOVA and ANCOVA techniques from a linear model perspective ANOVA and ANCOVA: A GLM Approach provides a contemporary look at the general linear model (GLM) approach to the analysis of variance (ANOVA) of one- and two-factor psychological experiments. With its organized and comprehensive presentation, the book successfully guides readers through conventional statistical concepts and how to interpret them in GLM terms, treating the main single- and multi-factor designs as they relate to ANOVA and ANCOVA. The book begins with a brief history of the separate development of ANOVA and regression analyses, and then goes on to demonstrate how both analyses are incorporated into the understanding of GLMs. This new edition now explains specific and multiple comparisons of experimental conditions before and after the Omnibus ANOVA, and describes the estimation of effect sizes and power analyses leading to the determination of appropriate sample sizes for experiments to be conducted. Topics that have been expanded upon and added include: Discussion of optimal experimental designs Different approaches to carrying out the simple effect analyses and pairwise comparisons with a focus on related and repeated measure analyses The issue of inflated Type 1 error due to multiple hypotheses testing Worked examples of Shaffer's R test, which accommodates logical relations amongst hypotheses ANOVA and ANCOVA: A GLM Approach, Second Edition is an excellent book for courses on linear modeling at the graduate level. It is also a suitable reference for researchers and practitioners in the fields of psychology and the biomedical and social sciences.
+
 ### 1: Introduction to General Linear Models: Regression, Analysis of Variance, and Analysis of Covariance
+
+The first chapter provides a refresher of the regression, ANOVA and ANOCA.  This information was skimmed due to being fairly redundant with existing materials.
+
+One critical difference is the text places strong emphasis on using matrix computations through software, versus scalar calculations.  This approach makes a lot of sense as high dimensional computations are more clearly expressed through this format.
 
 ### 2: Traditional and GLM Approaches to Independent Measures Single Factor ANOVA Designs
 
+The next chapter provides a refresher on confidence intervals, sum of square errors, and other metrics for assessing the accuracy of a statistic.
+
 ### 3: Comparing Experimental Condition Means, Multiple Hypothesis Testing, Type 1 Error, and a Basic Data Analysis Strategy
 
+There are three basic stages of data analysis:
+
+1. Apply the omnnibus ANOVA and determine the Mean Square Error rate (see: `Sangseok Lee, & Dong Kyu Lee. (2018)`)
+2. Interpret the results of the omnibus ONOVA and identify any specific and theoretically relevant comparisons
+3. Examine the next level of details and conduct pairwise comparisons
+
 ### 4: Measures of Effect Size and Strength of Association, Power, and Sample Size
+
+This chapter appears to largely be redundant from material from [Week 3 Videos](../../Week3_Design/Videos).
 
 ### 5: GLM Approaches to Independent Measures Factorial Designs
 
