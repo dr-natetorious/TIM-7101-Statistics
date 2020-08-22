@@ -6,11 +6,41 @@ Chatterjee, S., & Hadi, A. S. (2012). Regression analysis by example. Hoboken, N
 
 ### 1: What is regression analysis
 
+Regression analysis is a common statistical approach for modeling the relationship of multiple variables.  It attempts to approximate a function that uses the parameter set to come to some known outcome.  After estimating this function, researchers can predict behaviors in other groups.
+
+![regression_analysis_process.png](regression_analysis_process.png)
+
 ### 2: Simple Linear Regression
+
+Measuring the `direction` and `strength` of a relationship requires calculating the `covariance` and `correlation coefficienct`.  After determining these values it can be useful to also determine `standard error rate` and the `confidence interval`, which are measurements of accuracy.
 
 ### 4: Regression diagnostics: detection of model violations
 
+There are several risks to regression analysis that produce overfitting or erroneous solutions.
+
+Assumption of...
+
+- ... `linearity` that the model is simple versus hihgly dimensional
+- ... `independently and identically distributed` (iid) normal random variables
+- ... predictor variables are (a) non random (b) measured without error and (c) linearly independent (`collinearity`)
+- ... observations are equally reliable and approximately equal influence
+
+One strategy for proving or disproving these assumptions is to graphically present the data.
+
+- Detect errors in the data
+- Recognize patterns (e.g., clusters, outliers, gaps)
+- Explore relationships
+- Discover new phenomena
+- Confirm or negate assumptions
+- Assess adequancy of fitting
+- Suggest remedial actions (e.g., transform, redesign, or additional collection)
+- Enhance numerial analyses in general
+
+Another strategy is to measure the influence of an individual point, using something like `Cook's distance`; which removes the `ith` data point then recalculates the regression line.  Similarly, Welsch and Kuh (1977) propose `DFITS` to derive a _difference in fit scaled_.  Hadi (1992) uses a _normalized residual_ to discover outliers in parameters and data points.
+
 ### 6: Transformation of variables
+
+This chapter looks really useful.  I will come back to this after lunch.
 
 ## What is the proper way to apply the multiple comparison test (2018)
 
