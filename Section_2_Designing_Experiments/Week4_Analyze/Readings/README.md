@@ -73,6 +73,29 @@ Rutherford, A. (2012). Anova and ancova: A glm approach. Hoboken, New Jersey: Jo
 
 Shaughnessy, A., Prener, C., & Hasenmueller, E. (2018). Exploring data in R. [GitHub](https://shaughnessyar.github.io/driftR/articles/ExploringData.html).  [ExploringDataR.pdf](ExploringDataR.pdf).
 
+This tutorial shows how to load data into an R-script, then perform the various calculations discussed in this weeks material.
+
 ## How to Select Appropriate Statistical Tests in Scientific Articles (2016)
 
 Trajkovski, V. (2016). How to Select Appropriate Statistical Tests in Scientific Articles. Journal of Special Education & Rehabilitation. 7(3/4), 5–28. [https://doi-org.proxy1.ncu.edu/10.19057/jser.2016.7](https://doi-org.proxy1.ncu.edu/10.19057/jser.2016.7). [SelectStatisticalTests.pdf](SelectStatisticalTests.pdf).
+
+A common challenge in research is choosing the correct statistical test to describe the specific scenario.  When inexperienced authors use the wrong metric it lowers the credibility of the work and can provide inaccuate conclusions.  Several large journals are addressing these issues with dedicated editor of statistics, however, this role is still under represented in the broader publishing world.
+
+### What are parametric versus non-parametric methods
+
+A parametric distribution (e.g., normal distribution) allows the researchers to make certain assumptions about the likelihood of values appearing.  However, many real-life data sets have multiple classes or ranges of values that are more common than others (e.g., W and M shapes).  
+
+When parametric tests are applied to non-parametric data, then the resulting calculations are inaccurate.
+
+![parametric_vs_nonparametric.png](parametric_vs_nonparametric.png)
+
+### What tests are valid for given feature
+
+The given feature type dictates which statistical tests are compatible with its values.  For instance, it would not make sense to take the average of a nominal scale (e.g., categorical value), but determining a frequence ratio does.
+
+| Data Type | Description| Example |
+|-----------|-----------|---------|
+|Nominal | Categorical| Gender or color|
+|Ordinal|Ordered Qualitative| sad, happy, excited|
+|Interval| Scaled values| age in years or weight in km|
+|Ratio| Combines previous three into one value| $100 versus $1000 dollars|
