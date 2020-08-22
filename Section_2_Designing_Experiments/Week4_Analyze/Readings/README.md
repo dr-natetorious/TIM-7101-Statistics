@@ -87,6 +87,8 @@ This chapter appears to largely be redundant from material from [Week 3 Videos](
 
 ### 5: GLM Approaches to Independent Measures Factorial Designs
 
+A factorial design takes into account multiple variables at the same time.  These configurations are quiet common in the real-world.
+
 ## Exploring data in R (2018)
 
 Shaughnessy, A., Prener, C., & Hasenmueller, E. (2018). Exploring data in R. [GitHub](https://shaughnessyar.github.io/driftR/articles/ExploringData.html).  [ExploringDataR.pdf](ExploringDataR.pdf).
