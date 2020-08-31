@@ -52,8 +52,7 @@ When examining the `mean` of multiple groups it is often useful to perform an `a
 
 The various methods attempt to determine the statistical significance or `P-value (probability value)`-- or likelyhood of an extreme value occurring.  One challenge with measuring the p-value comes from `alpha inflation` which means that the same group is measured over-and-over resulting in _greater confidence despite no additional evidence_.  Comparisons typically use a single-step or stepwise procedure, which [adds or removes parameters](https://youtu.be/AdFT17sq53s) to determine which features are most important.
 
-> Many research designs use numerous sources of multiple comparison, such as multiple outcomes, multiple predictors,
-subgroup analyses, multiple definitions for exposures and outcomes, multiple time points for outcomes (repeated measures), and multiple looks at the data during sequential interim monitoring. Therefore, multiple comparisons performed in a previous situation are accompanied by increased type I error problem, and it is necessary to adjust the P value accordingly.
+> Many research designs use numerous sources of multiple comparison, such as multiple outcomes, multiple predictors, subgroup analyses, multiple definitions for exposures and outcomes, multiple time points for outcomes (repeated measures), and multiple looks at the data during sequential interim monitoring. Therefore, multiple comparisons performed in a previous situation are accompanied by increased type I error problem, and it is necessary to adjust the P value accordingly.
 
 ![mct_strategies.png](mct_strategies.png)
 
