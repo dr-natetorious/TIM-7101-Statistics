@@ -1,0 +1,5 @@
+# Enterprise Management Informed by Statistical Data
+
+Applying statistical applications to the enterprise is an important step for effective technology leaders.  Proactive and effective technology leaders will be able to ascertain the statistical tools needed to review data, analyze organized data, visually review findings, and offer recommendations to corporate stakeholders.  Effective statistical principles will involve aligning analyses with the overall corporate vision, mission, and business objectives.
+
+Proactive technology leaders and managers will embrace the competitiveness of the marketplace by instilling stakeholder-centric strategies that can utilize statistical best practices.  One potential example is to ensure statistical calculations pertain to the requirements needed by decision-makers throughout the firm.  In this regard, technology managers can showcase findings tied to analyses pertinent to standalone data reviews and to the examination of data and information across pre-defined groups.
